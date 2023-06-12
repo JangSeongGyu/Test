@@ -3,18 +3,17 @@ Option Explicit
 
 Private Sub CreateCalendarForm()
     Dim myForm As Object
-    'Git Test
     Set myForm = ThisWorkbook.VBProject.VBComponents.Add(ComponentType:=3)  '' vbext_ct_MSForm
     With myForm
         .Name = "CalendarForm"
         .Properties("Height") = 310
         .Properties("Width") = 310
-        .Properties("Caption") = "æ—¥ä»˜ã‚’é¸æŠã—ã¦ã‚»ãƒ«ã«å…¥åŠ›"
+        .Properties("Caption") = "“ú•t‚ğ‘I‘ğ‚µ‚ÄƒZƒ‹‚É“ü—Í"
     End With
     Dim myFormDesign As Object
     Set myFormDesign = myForm.Designer
     With myFormDesign.Controls.Add("Forms.TextBox.1")
-        .Name = "TXTæ—¥ä»˜"
+        .Name = "TXT“ú•t"
         .Width = 144
         .Height = 24
         .Top = 6
@@ -33,7 +32,7 @@ Private Sub CreateCalendarForm()
         .IMEMode = 3
     End With
     With myFormDesign.Controls.Add("Forms.CommandButton.1")
-        .Name = "CMDå…ˆæœˆ"
+        .Name = "CMDæŒ"
         .Width = 30
         .Height = 24
         .Top = 6
@@ -47,7 +46,7 @@ Private Sub CreateCalendarForm()
         .Caption = "<"
     End With
     With myFormDesign.Controls.Add("Forms.CommandButton.1")
-        .Name = "CMDç¿Œæœˆ"
+        .Name = "CMD—‚Œ"
         .Width = 30
         .Height = 24
         .Top = 6
@@ -61,7 +60,7 @@ Private Sub CreateCalendarForm()
         .Caption = ">"
     End With
     With myFormDesign.Controls.Add("Forms.CommandButton.1")
-        .Name = "CMDä»Šæ—¥"
+        .Name = "CMD¡“ú"
         .Width = 48
         .Height = 24
         .Top = 252
@@ -72,7 +71,7 @@ Private Sub CreateCalendarForm()
         .Font.Size = 10.2
         .Font.Name = "MS UI Gothic"
         .TabIndex = 3
-        .Caption = "ä»Šæ—¥"
+        .Caption = "¡“ú"
     End With
     With myFormDesign.Controls.Add("Forms.Label.1")
         .Name = "Label43"
@@ -90,7 +89,7 @@ Private Sub CreateCalendarForm()
         .BorderStyle = 1
         .SpecialEffect = 0
         .TextAlign = 2
-        .Caption = "æ—¥"
+        .Caption = "“ú"
     End With
     With myFormDesign.Controls.Add("Forms.Label.1")
         .Name = "Label44"
@@ -108,7 +107,7 @@ Private Sub CreateCalendarForm()
         .BorderStyle = 1
         .SpecialEffect = 0
         .TextAlign = 2
-        .Caption = "æœˆ"
+        .Caption = "Œ"
     End With
     With myFormDesign.Controls.Add("Forms.Label.1")
         .Name = "Label45"
@@ -126,7 +125,7 @@ Private Sub CreateCalendarForm()
         .BorderStyle = 1
         .SpecialEffect = 0
         .TextAlign = 2
-        .Caption = "ç«"
+        .Caption = "‰Î"
     End With
     With myFormDesign.Controls.Add("Forms.Label.1")
         .Name = "Label46"
@@ -144,7 +143,7 @@ Private Sub CreateCalendarForm()
         .BorderStyle = 1
         .SpecialEffect = 0
         .TextAlign = 2
-        .Caption = "æ°´"
+        .Caption = "…"
     End With
     With myFormDesign.Controls.Add("Forms.Label.1")
         .Name = "Label47"
@@ -162,7 +161,7 @@ Private Sub CreateCalendarForm()
         .BorderStyle = 1
         .SpecialEffect = 0
         .TextAlign = 2
-        .Caption = "æœ¨"
+        .Caption = "–Ø"
     End With
     With myFormDesign.Controls.Add("Forms.Label.1")
         .Name = "Label48"
@@ -180,7 +179,7 @@ Private Sub CreateCalendarForm()
         .BorderStyle = 1
         .SpecialEffect = 0
         .TextAlign = 2
-        .Caption = "é‡‘"
+        .Caption = "‹à"
     End With
     With myFormDesign.Controls.Add("Forms.Label.1")
         .Name = "Label49"
@@ -198,7 +197,7 @@ Private Sub CreateCalendarForm()
         .BorderStyle = 1
         .SpecialEffect = 0
         .TextAlign = 2
-        .Caption = "åœŸ"
+        .Caption = "“y"
     End With
     With myFormDesign.Controls.Add("Forms.Label.1")
         .Name = "Label1"
